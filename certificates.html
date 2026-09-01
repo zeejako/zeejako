@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Certificates - Zizile Jako</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Certificates - Zizile Jako</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+.certs { max-width: 900px; margin: 40px auto; padding: 20px; }
+.cert { background:#fff; border-radius:12px; padding:25px; margin-bottom:30px; box-shadow:0 4px 15px rgba(0,0,0,0.08); }
+.cert h3 { margin:0 0 8px; color:#1a1a1a; }
+.cert small { color:#666; }
+.cert img { width:100%; max-width:600px; border:1px solid #ddd; border-radius:8px; margin-top:15px; display:block; }
+.btns { display:flex; gap:12px; margin-top:18px; }
+.btn { background:#2c3e50; color:white; padding:10px 18px; border-radius:6px; text-decoration:none; font-weight:bold; }
+.btn.green { background:#27ae60; }
+</style>
 </head>
 <body>
 <header>
@@ -20,43 +30,43 @@
 </nav>
 </header>
 
-<section id="about">
-<h2>My Certificates</h2>
-<div class="card">
-<p>Here are my verified certificates and achievements. Click on any to view full size.</p>
+<div class="certs">
+<h1 style="text-align:center;">My Certificates</h1>
+<p style="text-align:center;color:#666;margin-bottom:40px;">Verified certificates - Click to view or download</p>
+
+<div class="cert">
+<h3>1. Career Connect Certificate - Zizile Jako</h3>
+<small>Issued by Career Connect</small>
+<p>Professional development and career readiness certification.</p>
+<div class="btns">
+<a class="btn" href="Certificate_Zizile_Jako.pdf" target="_blank">View PDF</a>
+<a class="btn green" href="Certificate_Zizile_Jako.pdf" download>Download</a>
 </div>
-</section>
+</div>
 
-<section id="certificates-list">
-<div class="cert-grid">
+<div class="cert">
+<h3>2. Cloud Service Computing Micro-Certification</h3>
+<small>Issued 2025 - Cloud Computing</small>
+<p>Micro-certification in Cloud Service Computing fundamentals.</p>
+<div class="btns">
+<a class="btn" href="Cloud Service Computing Micro-Certification (3).pdf" target="_blank">View PDF</a>
+<a class="btn green" href="Cloud Service Computing Micro-Certification (3).pdf" download>Download</a>
+</div>
+</div>
 
-    <!-- To add a certificate: change image name and title -->
-    <div class="card cert-card">
-        <img src="certificates/cert1.jpg" alt="Certificate 1" onerror="this.src='zizile.jpg'">
-        <h3>Your Certificate Title Here</h3>
-        <p>Issuer - Year</p>
-        <a href="certificates/cert1.jpg" target="_blank" class="btn">View Full Certificate</a>
-    </div>
-
-    <div class="card cert-card">
-        <img src="certificates/cert2.jpg" alt="Certificate 2" onerror="this.src='zizile.jpg'">
-        <h3>Your Certificate Title Here</h3>
-        <p>Issuer - Year</p>
-        <a href="certificates/cert2.jpg" target="_blank" class="btn">View Full Certificate</a>
-    </div>
-
-    <div class="card cert-card">
-        <img src="certificates/cert3.pdf" alt="Certificate 3">
-        <h3>Your Certificate Title Here</h3>
-        <p>Issuer - Year</p>
-        <a href="certificates/cert3.pdf" target="_blank" class="btn">View Certificate</a>
-    </div>
+<div class="cert">
+<h3>3. Huawei Certification</h3>
+<small>Issued by Huawei</small>
+<p>Huawei certified professional achievement.</p>
+<img src="huawei.png" alt="Huawei Certificate">
+<div class="btns">
+<a class="btn" href="huawei.png" target="_blank">View Full Image</a>
+<a class="btn green" href="huawei.png" download>Download</a>
+</div>
+</div>
 
 </div>
-</section>
 
-<footer>
-<p>©️ 2026 Zizile Jako | Personal Portfolio Website</p>
-</footer>
+<footer><p>©️ 2026 Zizile Jako | Personal Portfolio Website</p></footer>
 </body>
 </html>
